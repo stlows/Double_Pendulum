@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Double Pendulum</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+		
+	</head>
+<body>
+<table>
+<tr>
+<td>
+<svg width="600" height="500" style="border: 1px solid black">
+  <polyline id ="path1" points="" style="fill:none;stroke:rgb(106, 179, 252);stroke-width:1" />
+  <polyline id ="path2" points="" style="fill:none;stroke:rgb(255, 104, 127);stroke-width:1" />
+  <line id="line1" stroke="black" />
+  <line id="line2" stroke="black" />
+  <circle id="origin" cx="300" cy="150" r="5" fill="black" />
+  <circle id="m2" r="10" fill="red" />
+  <circle id="m1" r="10" fill="blue" />
+  <text x="550" y="490" id="counter">0</text>
+</svg>
+</td>
+<td>
+	<button type="button" id="pauseContinueBtn">Pause</button>
+	<button type="button" id="restartBtn">Restart</button>
+	<button type="button" id="applyBtn">Apply</button><br><br>
+
+	<button type="oneFrame" id="oneFrameBtn" hidden>One frame</button><br><br>
+
+	<label for="g_input">g: <input id="g_input" type="text" value="0.5"> </label><br>
+	<label for="m1_input">Mass 1: <input id="m1_input" type="text" value="10"></label><br>
+	<label for="m2_input">Mass 2: <input id="m2_input" type="text" value="10"></label><br>
+	<label for="r1_input">Radius 1: <input id="r1_input" type="text" value="100"></label><br>
+	<label for="r2_input">Radius 2: <input id="r2_input" type="text" value="100"></label><br>
+	<label for="a1_input">Angle 1: <input id="a1_input" type="text" value="1.5708"></label><br>
+	<label for="a2_input">Angle 2: <input id="a2_input" type="text" value = "3.1416"></label><br><br>
+	
+	<label for="trail1_chkBox"><input id="trail1_chkBox" type="checkbox">Trail 1: <input id="trail1_length" type="text" value = "50"></label><br>
+	<label for="trail2_chkBox"><input id="trail2_chkBox" type="checkbox" checked>Trail 2: <input id="trail2_length" type="text" value = "200"></label>
+</td>
+
+ 
+</body>
+</html>
+
+    </body>
+</html>
