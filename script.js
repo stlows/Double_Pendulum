@@ -19,7 +19,7 @@ $(document).ready(function(){
 		w2 = 0;
 		acc1 = 0;
 		acc2 = 0;
-		x0 = 300;
+		x0 = $("#canvas").width() / 2;
 		y0 = 150;
 		a1 = parseFloat($("#a1_input").val());
 		a2 = parseFloat($("#a2_input").val());
@@ -89,6 +89,8 @@ $(document).ready(function(){
         $("#m2").attr("cx", x2);
         $("#m2").attr("cy", y2);
         
+		// $("#m2Label").attr("x",x2 - 2);
+		// $("#m2Label").attr("y",y2+3);
     }
 	var start = function() {
 		drawId = setInterval(draw, 1000 / fps);
