@@ -1,5 +1,3 @@
-# Double_Pendulum
-Double Pendulum in HTML SVG - JS
+# Double Pendulum
 
-See the results:
-https://stlows.github.io/Double_Pendulum/index.html
+See the results [here!](https://www.vbeaulieu.com/portfolio/Double-Pendule)
